@@ -1,8 +1,8 @@
 import pytest
 import logging
 
-from tests.fixtures.factory_example_fixture import db_connection_factory
-from tests.fixtures.indirect_param_fixture import setup
+from automation.fixtures.factory_example_fixture import db_connection_factory
+from automation.fixtures.indirect_param_fixture import setup
 
 @pytest.mark.smoke
 def test_basic():

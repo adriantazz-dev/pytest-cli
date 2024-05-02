@@ -34,8 +34,8 @@ def main():
 
     # Subparser for run
     run_parser = subparsers.add_parser("run", help="Run tests")
-    run_parser.add_argument("test_type", choices=["api"], help="Type of tests to run")
-    run_parser.add_argument("-m", "--mode", help="Mode for the tests")
+    run_parser.add_argument("test_type", choices=["api", "ui"], help="Type of tests to run")
+    run_parser.add_argument("-m", default="", help="Tags to run")
     run_parser.add_argument("pytest_args", nargs=argparse.REMAINDER, help="Arguments to pass to pytest")
     run_parser.set_defaults(func=run)
 
