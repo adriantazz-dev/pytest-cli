@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pytest-cli"
+version = "0.1.0"
+description = "Simple cli for Pytest"
+authors = ["Adrian <adriantazz@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.4.3"
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
