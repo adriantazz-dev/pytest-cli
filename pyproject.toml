@@ -2,7 +2,7 @@
 name = "pytest-cli"
 version = "0.1.0"
 description = ""
-authors = ["Adrian <adriantazz@gmail.com>"]
+authors = ["Adrian Castro <adriantazz@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
