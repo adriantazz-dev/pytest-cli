@@ -1,3 +1,6 @@
 .env
 .pytest_cache
 __pycache__
+poetry.lock
+dist
+my_env
